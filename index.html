@@ -1,20 +1,100 @@
 <html>
 <head>
 <title>Herman Bergwerf</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 body {
   max-width: 40em;
-  margin: 2em auto;
+  margin: 1em auto;
+  padding: 1em;
+  background: #eef;
+}
+
+h1 {
+  font-weight: 600;
+  font-variant: small-caps;
+  color: #222;
+}
+
+h2 {
+  font-weight: 600;
+  font-style: italic;
+}
+
+hr {
+  position: relative;
+  margin: 2em 0;
+  border: 0;
+  border-bottom: .1em solid #000;
+}
+
+hr::before, hr::after {
+  content: ' ';
+  display: block;
+  position: absolute;
+  width: .4em;
+  height: .4em;
+  border: .1em solid #000;
+  transform: translateY(-.25em) rotate(45deg);
+}
+
+hr::before {
+  left: -.6em;
+}
+
+hr::after {
+  right: -.6em;
+}
+
+#background-effect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+#background-effect > div {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 100%;
+  border-top: 10em solid #ddf;
+}
+
+#bergwerf-labs {
+  margin: 1em;
+  text-align: center;
 }
 </style>
 </head>
 <body>
+<div id="background-effect"><div></div></div>
 <h1>Herman Bergwerf</h1>
 <p>
 This is a personal webpage that is intended to represent my professional 
 activities, academic publications, and business ventures.
 This page is <i>under construction</i>.
 </p>
+<hr>
+<h2>Curriculum Vitae</h2>
+<hr>
+<h2>Expertise</h2>
+<hr>
+<h2>Consultancy</h2>
+<hr>
+<h2>Publications</h2>
+<hr>
+<div id="bergwerf-labs">
+<img src="fig/bergwerf_labs.svg" style="width: 15em;">
+<p><i>
+KvK 73224480<br>
+post@hbergwerf.nl
+</i></p>
+</div>
 </body>
 </html>
 
