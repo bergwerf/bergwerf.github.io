@@ -1,0 +1,104 @@
+/* Fonts */
+
+@font-face {
+  src: url("fonts/LinLibertine_R.otf") format("opentype");
+  font-family: "Linux Libertine";
+  font-style: normal;
+}
+
+@font-face {
+  src: url("fonts/LinBiolinum_R.otf") format("opentype");
+  font-family: "Linux Biolinum";
+  font-style: normal;
+}
+
+@font-face {
+  src: url("fonts/LinBiolinum_RI.otf") format("opentype");
+  font-family: "Linux Biolinum";
+  font-style: italic;
+}
+
+body {
+  font-family: "Linux Libertine";
+  font-weight: normal;
+}
+
+h1, h2, h3 {
+  font-family: "Linux Biolinum";
+  font-weight: normal;
+}
+
+/* Generic styles */
+
+h1 {
+  font-variant: small-caps;
+  color: #000000cc;
+}
+
+h2, h3 {
+  font-style: italic;
+  color: #000000cc;
+}
+
+hr {
+  position: relative;
+  margin: 2em 0;
+  border: 0;
+  border-bottom: 2px solid #000;
+  overflow: visible;
+}
+
+/*
+Note that <hr> is a void node, so pseudo-elements are not really supposed to
+work. However they do work with <hr> in all browsers I have tested. It is also
+not really a problem if this is not shown.
+*/
+hr::before, hr::after {
+  content: ' ';
+  display: block;
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border: 2px solid #000;
+  transform: translateY(-4.5px) rotate(45deg);
+}
+
+hr::before {
+  left: -10px;
+}
+
+hr::after {
+  right: -10px;
+}
+
+/* Specific styles */
+
+body {
+  max-width: 40em;
+  margin: 1em auto;
+  padding: 1em;
+  background: #eef;
+}
+
+#background-effect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+#background-effect > div {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 100%;
+  border-top: 10em solid #ffd700;
+}
+
+#bergwerf-labs {
+  margin: 1em;
+  text-align: center;
+}
