@@ -95,11 +95,10 @@ figure > img {
   margin: .5em 0;
   font-size: 1rem;
   max-width: 100%;
-  box-sizing: border-box;
 }
 
 img.frame {
-  border: 1.5px solid;
+  box-shadow: 0 0 .5px 1px #000;
 }
 
 /* Tables */
