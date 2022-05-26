@@ -3,32 +3,289 @@
 <title>Herman Bergwerf</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/x-icon" href="favicon.ico">
 <link rel="stylesheet" href="index.css">
 </head>
 <body>
-<div id="background-effect"><div></div></div>
-<h1>Herman Bergwerf</h1>
-<p>
-This is a personal webpage that is intended to represent my professional 
-activities, academic publications, and business ventures.
-This page is <i>under construction</i>.
-</p>
-<hr>
-<h2>Curriculum Vitae</h2>
-<hr>
-<h2>Expertise</h2>
-<hr>
-<h2>Consultancy</h2>
-<hr>
-<h2>Publications</h2>
-<hr>
-<h2>Contact</h2>
-<div id="bergwerf-labs">
-<img src="fig/bergwerf_labs.svg" style="width: 15em;">
-<p><i>
-KvK 73224480<br>
-post@hbergwerf.nl
-</i></p>
-</div>
+<div id="background_effect"><div></div></div>
+<figure>
+<img style="height: 12em" class="frame" src="fig/Herman.jpg">
+</figure>
+<h1 id="herman-bergwerf">Herman Bergwerf</h1>
+<p><strong>Welcome!</strong> This webpage contains information about my expertise and professional activities. The main driving factor for me has always been solving difficult problems, and making the solutions look as beautiful as possible. I enjoy working with other skilled people, learning from them, and contributing my own knowledge and insights. I have a strong theoretical background in biophysics, mathematics, and computer science, and over the years I have gained extensive experience with software development and programming.</p>
+<hr />
+<h2 id="technical-expertise">Technical expertise</h2>
+<p>I have affinity with challenges across the software stack, both high-level and low-level. I like designing things, thinking about the interactions, and making sure everything is implemented in a modular and efficient way.</p>
+<p><br></p>
+<h3 id="uiux-design">UI/UX Design</h3>
+<figure>
+<img style="width: 15em" class="frame" src="fig/Bromium_UI.png"> <img style="width: 15em" class="frame" src="fig/MolView_responsive_zoomed.png">
+</figure>
+<p>When developing user interfaces I strive for perfection. I make sure things look good on every screen, taking into account different sizes and resolutions. I highly value simplicity, so I try to make things self explanatory using visual metaphors users are familiar with. When necessary I use Inkscape to design custom vector icons that blend in well with the rest of the design.</p>
+<p><br></p>
+<h3 id="interactive-graphics">Interactive Graphics</h3>
+<figure>
+<img style="width: 15em" class="frame" src="fig/MSketch.png"> <img style="width: 15em" src="fig/MolKit.png">
+</figure>
+<p>Many of my projects have included interactive graphics, from a clickable world map to an interactive 2D and 3D molecule editor. Developing graphics with complex user interactions is one of my main strengths. In some cases I design a custom event handling system to ensure predictable behavior, and to ease the implemenation of new domain-specific features.</p>
+<p><br></p>
+<h3 id="accelerated-graphics">Accelerated Graphics</h3>
+<figure>
+<img style="width: 30em" src="fig/Bromium.png">
+</figure>
+<p>Application performance should never stand in the way of the user, so when needed I look for advanced ways to improve rendering efficiency. I have worked with the OpenGL API, developed GLSL shaders, and implemented general-purpose GPU computation. A good understanding of these technologies is very useful when working with 3D graphics.</p>
+<p><br></p>
+<h3 id="machine-learning">Machine Learning</h3>
+<figure>
+<img style="width: 13em" class="frame" src="fig/nerve_segmentation_a.png"> <img style="width: 13em" class="frame" src="fig/nerve_segmentation_b.png">
+</figure>
+<p>I have experience developing deep learning networks, and using existing machine learning solutions in Python. Jupyter Notebooks are an essential part of my Python workflow. The machine learning world is very fast-paced, and novel applications are published each day. Many existing solutions are just waiting for new application contexts.</p>
+<p><br></p>
+<h3 id="formal-verification">Formal Verification</h3>
+<figure>
+<img style="width: 10em" src="fig/Rubiks_cube.svg">
+</figure>
+<p>One of my academic specializations is <em>formal verification</em> using interactive theorem provers. I primarily use the <em>Coq Proof Assistant</em>, using which I have developed various formal theories. Developing formal proofs is very challenging, and requires careful thinking about even the smallest logical inferences. Below are some formalization projects I did in my spare time.</p>
+<table>
+<thead>
+<tr class="header">
+<th>Theory</th>
+<th>Repository</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Kleene Algebras and shortest paths</td>
+<td><a href="https://github.com/bergwerf/star_semiring"><code>@bergwerf/star_semiring</code></a></td>
+</tr>
+<tr class="even">
+<td>Functional permutation factorization</td>
+<td><a href="https://github.com/bergwerf/permutation_computing"><code>@bergwerf/permutation_computing</code></a></td>
+</tr>
+<tr class="odd">
+<td>Arithmetic decidability via automata</td>
+<td><a href="https://github.com/bergwerf/linear_integer_arithmetic"><code>@bergwerf/linear_integer_arithmetic</code></a></td>
+</tr>
+<tr class="even">
+<td>The Cantor-Bendixon theorem</td>
+<td><a href="https://github.com/bergwerf/settheory"><code>@bergwerf/settheory</code></a></td>
+</tr>
+<tr class="odd">
+<td>Brouwer’s Continuity Principle</td>
+<td><a href="https://github.com/bergwerf/intuitionism"><code>@bergwerf/intuitionism</code></a></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="featured-projects">Featured projects</h2>
+<section>
+<table>
+<thead>
+<tr class="header">
+<th>For <a href="https://molview.org/">MolView</a></th>
+<th><em>Cheminformatics in the Cloud</em></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Technologies</td>
+<td><em>JavaScript</em> <em>PHP</em> <em>WebGL</em> <em>CSS</em></td>
+</tr>
+<tr class="even">
+<td>Goal</td>
+<td>Enable free online molecule editing and viewing using open cheminformatics databases and modern web technologies.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th>For <a href="https://profects.com/">Profects</a></th>
+<th><em>Custom Mailing Scheduler</em></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Technologies</td>
+<td><em>Golang</em> <em>PostgreSQL</em> <em>Docker</em></td>
+</tr>
+<tr class="even">
+<td>Goal</td>
+<td>Develop a stable and efficient program to send thousands of daily emails parameterized by an SQL database.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th>For <a href="https://learnbeat.nl/">Learnbeat</a></th>
+<th><em>Molecule Sketching for Education</em></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Technologies</td>
+<td><em>JavaScript</em> <em>HTML5 Canvas</em></td>
+</tr>
+<tr class="even">
+<td>Goal</td>
+<td>Integrate MolView’s 2D molecule sketcher in a learning platform used by over 500 schools in the Netherlands.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th>For <a href="https://www.creative-quantum.eu/">CreativeQuantum</a></th>
+<th><em>High-quality Chemical Diagrams</em></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Technologies</td>
+<td><em>Dart</em> <em>HTML5 Canvas</em></td>
+</tr>
+<tr class="even">
+<td>Goal</td>
+<td>Design a new and highly configurable web-based chemical diagram editor from scratch using the Dart language.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th>For <a href="https://www.omoda.nl/">Omoda</a></th>
+<th><em>Machine Learning for Image Processing</em></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Technologies</td>
+<td><em>Python</em> <em>MediaPipe</em></td>
+</tr>
+<tr class="even">
+<td>Goal</td>
+<td>Build machine learning based tools for automatic image classification to help automate the photography pipeline.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<hr />
+<h2 id="academic-background">Academic background</h2>
+<p>In 2015 I started the <em>Nanobiology</em> Bachelor program at TU Delft. I was excited to learn about the molecular machinery and laws of physics that make life possible. While this fascination remains with me, I decided to move away from the empirical sciences to study mathematics and logic.</p>
+<p>I moved to Nijmegen where they offer a strongly theoretical computer science track, including courses on Category Theory, Type Theory, Computability Theory, and Automated Reasoning. My interest in mathematics increased, and I followed courses about Axiomatic Set Theory, Model Theory, and Graph Theory.</p>
+<p><br></p>
+<section>
+<figure>
+<img src="fig/Radboud.svg" height="45">
+</figure>
+<h3 id="msc.-mathematical-foundations-of-computer-science"><strong>MSc.</strong> Mathematical Foundations of Computer Science</h3>
+<table>
+<thead>
+<tr class="header">
+<th>Research Internship</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Title</td>
+<td>Circular lists in Iris ∗ deduction rules of ▷</td>
+</tr>
+<tr class="even">
+<td>Supervisor</td>
+<td>dr. Robbert Krebbers</td>
+</tr>
+<tr class="odd">
+<td>Group</td>
+<td><a href="https://sws.cs.ru.nl/">Software Science</a></td>
+</tr>
+<tr class="even">
+<td>Full Text</td>
+<td><a href="https://doi.org/10.5281/zenodo.6340500"><code>doi: 10.5281/zenodo.6340500</code></a></td>
+</tr>
+</tbody>
+</table>
+</section>
+<p><br></p>
+<section>
+<figure>
+<img src="fig/TU_Delft.svg" height="30">
+</figure>
+<h3 id="bsc.-nanobiology"><strong>BSc.</strong> Nanobiology</h3>
+<table>
+<thead>
+<tr class="header">
+<th>Thesis</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Title</td>
+<td>Nerve fiber tracing in bright-field images of human skin using deep learning</td>
+</tr>
+<tr class="even">
+<td>Supervisor</td>
+<td>dr. Erik Meijering</td>
+</tr>
+<tr class="odd">
+<td>Group</td>
+<td><a href="https://bigr.nl/">Biomedical Imaging Group Rotterdam</a></td>
+</tr>
+<tr class="even">
+<td>Full Text</td>
+<td><a href="http://resolver.tudelft.nl/uuid:fc3ba9d0-8461-4a10-a66d-23b78dd161c2">TU Delft Repository</a></td>
+</tr>
+<tr class="odd">
+<td>IEEE Article</td>
+<td><a href="https://ieeexplore.ieee.org/document/8759504"><code>doi: 10.1109/ISBI.2019.8759504</code></a></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th>Minor</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Topic</td>
+<td><a href="https://interactive-environments.nl/">Interactive Environments</a> at the Industrial Design faculty</td>
+</tr>
+<tr class="even">
+<td>Description</td>
+<td>During one full semeter we were introduced to Interaction Design for physical environments, and challenged to go through an iterative designing and prototyping procedure in small teams.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<hr />
+<h2 id="contact-details">Contact details</h2>
+<p>I am always interested in new challenges and opportunities. For questions and business inquiries please send an email to <code>post@hbergwerf.nl</code>.</p>
+<table>
+<thead>
+<tr class="header">
+<th>Company</th>
+<th><em>Bergwerf Labs</em></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Address</td>
+<td>Heemraadstraat 6, 6525 TH, Nijmegen</td>
+</tr>
+<tr class="even">
+<td>KVK-number</td>
+<td><code>73224480</code></td>
+</tr>
+<tr class="odd">
+<td>BTW-id</td>
+<td><code>NL002378274B15</code></td>
+</tr>
+</tbody>
+</table>
 </body>
 </html>

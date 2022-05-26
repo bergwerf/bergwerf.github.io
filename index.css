@@ -2,47 +2,161 @@
 
 @font-face {
   src: url("fonts/LinLibertine_R.otf") format("opentype");
-  font-family: "Linux Libertine";
+  font-family: "Linux Libertine O";
   font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  src: url("fonts/LinLibertine_RB.otf") format("opentype");
+  font-family: "Linux Libertine O";
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  src: url("fonts/LinLibertine_RI.otf") format("opentype");
+  font-family: "Linux Libertine O";
+  font-style: italic;
+  font-weight: normal;
 }
 
 @font-face {
   src: url("fonts/LinBiolinum_R.otf") format("opentype");
-  font-family: "Linux Biolinum";
+  font-family: "Linux Biolinum O";
   font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  src: url("fonts/LinBiolinum_RB.otf") format("opentype");
+  font-family: "Linux Biolinum O";
+  font-style: normal;
+  font-weight: bold;
 }
 
 @font-face {
   src: url("fonts/LinBiolinum_RI.otf") format("opentype");
-  font-family: "Linux Biolinum";
+  font-family: "Linux Biolinum O";
   font-style: italic;
+  font-weight: normal;
 }
 
 body {
-  font-family: "Linux Libertine";
+  font-family: "Linux Libertine O", serif;
   font-weight: normal;
+  font-size: 1.2em;
 }
 
 h1, h2, h3 {
-  font-family: "Linux Biolinum";
+  font-family: "Linux Biolinum O", sans-serif;
   font-weight: normal;
 }
 
-/* Generic styles */
-
 h1 {
+  font-size: 2em;
   font-variant: small-caps;
-  color: #000000cc;
+  text-align: center;
+  color: #222;
 }
 
-h2, h3 {
+h2 {
+  font-size: 2em;
   font-style: italic;
-  color: #000000cc;
+  color: #222;
 }
+
+h3 {
+  font-size: 1.5em;
+  font-style: italic;
+  text-align: center;
+}
+
+/* Wikipedia hyperlink coloring */
+
+a {
+  color: #0645ad;
+}
+
+a:visited {
+  color: #0b0080;
+}
+
+/* Figures */
+
+figure {
+  margin: 0;
+  font-size: 5em;
+  text-align: center;
+}
+
+figure > img {
+  margin: .5em 0;
+  font-size: 1rem;
+  max-width: 100%;
+}
+
+img.frame {
+  border: 1px solid;
+}
+
+/* Tables */
+
+table {
+  margin: 1em 0;
+  padding: .1em;
+  border: 1px solid rgba(0,0,0,.25);
+  border-radius: .3em;
+  background: rgba(0,0,255,.07);
+}
+
+th {
+  padding: .4em;
+  font-size: 1.1em;
+  text-align: left;
+  color: #222;
+}
+
+th > a, th > a:visited {
+  color: #222;
+}
+
+th > em {
+  font-family: "Linux Biolinum O", sans-serif;
+  font-weight: normal;
+}
+
+td {
+  vertical-align: top;
+  padding: .2em .5em;
+  line-height: 1.5em;
+  border-radius: .2em;
+  border: 1px solid rgba(0,0,0,.2);
+  background: rgba(255,255,255,.3);
+}
+
+td > em {
+  margin: 0 .3em 0 -.2em;
+  padding: .1em .5em;
+  font-size: .9em;
+  font-style: normal;
+  font-weight: bold;
+  font-family: "Linux Biolinum O", sans-serif;
+  white-space: nowrap;
+  border-radius: .2em;
+  border: 1px solid rgba(0,0,0,.2);
+  background: #eef;
+}
+
+td > em > a {
+  text-decoration: none;
+}
+
+/* Art Deco horizontal rules */
 
 hr {
   position: relative;
-  margin: 2em 0;
+  margin: 3em 0;
   border: 0;
   border-bottom: 2px solid #000;
   overflow: visible;
@@ -71,16 +185,34 @@ hr::after {
   right: -10px;
 }
 
-/* Specific styles */
+/* The Rest */
 
 body {
   max-width: 40em;
   margin: 1em auto;
+  margin-bottom: 3em;
   padding: 1em;
+  line-height: 1.4em;
   background: #eef;
 }
 
-#background-effect {
+code {
+  word-break: break-all;
+}
+
+section h3 {
+  margin-bottom: 1.5em;
+}
+
+section table {
+  width: 100%;
+}
+
+section th:first-child {
+  width: 25%;
+}
+
+#background_effect {
   position: absolute;
   top: 0;
   left: 0;
@@ -89,16 +221,11 @@ body {
   z-index: -1;
 }
 
-#background-effect > div {
+#background_effect > div {
   position: absolute;
   bottom: 0;
   width: 100%;
   height: 100%;
   border-top-left-radius: 100%;
   border-top: 10em solid #ffd700;
-}
-
-#bergwerf-labs {
-  margin: 1em;
-  text-align: center;
 }
