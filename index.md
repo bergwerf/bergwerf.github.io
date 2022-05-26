@@ -112,30 +112,34 @@ Featured projects
 
 <section>
 
-For [MolView](https://molview.org/) | *Cheminformatics in the Cloud*
+2022         | *Machine Learning for Image Processing*
 -------------|------------------------------------------------------------------
-Technologies | *JavaScript* *PHP* *WebGL* *CSS*
-Goal         | Enable free online molecule editing and viewing using open cheminformatics databases and modern web technologies.
+Client       | [Omoda](https://www.omoda.nl/)
+Technologies | *Python* *MediaPipe*
+Goal         | Build machine learning based tools for automatic image classification to help automate the photography pipeline.
 
-For [Profects](https://profects.com/) | *Custom Mailing Scheduler*
+2017-2021    | *High-quality Chemical Diagrams*
 -------------|------------------------------------------------------------------
-Technologies | *Golang* *PostgreSQL* *Docker*
-Goal         | Develop a stable and efficient program to send thousands of daily emails parameterized by an SQL database.
-
-For [Learnbeat](https://learnbeat.nl/) | *Molecule Sketching for Education*
--------------|------------------------------------------------------------------
-Technologies | *JavaScript* *HTML5 Canvas*
-Goal         | Integrate MolView's 2D molecule sketcher in a learning platform used by over 500 schools in the Netherlands.
-
-For [CreativeQuantum](https://www.creative-quantum.eu/) | *High-quality Chemical Diagrams*
--------------|------------------------------------------------------------------
+Client       | [CreativeQuantum](https://www.creative-quantum.eu/)
 Technologies | *Dart* *HTML5 Canvas*
 Goal         | Design a new and highly configurable web-based chemical diagram editor from scratch using the Dart language.
 
-For [Omoda](https://www.omoda.nl/) | *Machine Learning for Image Processing*
+2017         | *Molecule Sketching for Education*
 -------------|------------------------------------------------------------------
-Technologies | *Python* *MediaPipe*
-Goal         | Build machine learning based tools for automatic image classification to help automate the photography pipeline.
+Client       | [Learnbeat](https://learnbeat.nl/)
+Technologies | *JavaScript* *HTML5 Canvas*
+Goal         | Integrate MolView's 2D molecule sketcher in a learning platform used by over 500 schools in the Netherlands.
+
+2016         | *Custom Mailing Scheduler*
+-------------|------------------------------------------------------------------
+Client       | [Profects](https://profects.com/)
+Technologies | *Golang* *PostgreSQL* *Docker*
+Goal         | Develop a stable and efficient program to send thousands of daily emails parameterized by an SQL database.
+
+2012-2015    | *[MolView.org](https://molview.org/)*
+-------------|------------------------------------------------------------------
+Technologies | *JavaScript* *PHP* *WebGL* *CSS*
+Goal         | Enable free online molecule editing and viewing using open cheminformatics databases and modern web technologies.
 
 </section>
 
@@ -156,10 +160,9 @@ and Automated Reasoning. My interest in mathematics increased, and I followed
 courses about Axiomatic Set Theory, Model Theory, and Graph Theory.
 
 <br>
-
 <section>
 <figure>
-<img src="fig/Radboud.svg" height="45">
+<img style="height: 3em" src="fig/Radboud.svg">
 </figure>
 
 ### **MSc.** Mathematical Foundations of Computer Science
@@ -175,10 +178,9 @@ Full Text           | [`doi: 10.5281/zenodo.6340500`](https://doi.org/10.5281/ze
 </section>
 
 <br>
-
 <section>
 <figure>
-<img src="fig/TU_Delft.svg" height="30">
+<img style="height: 2em" src="fig/TU_Delft.svg" height="30">
 </figure>
 
 ### **BSc.** Nanobiology
