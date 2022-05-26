@@ -72,10 +72,11 @@ h3 {
   text-align: center;
 }
 
-/* Wikipedia hyperlink coloring */
+/* Wikipedia hyperlink style */
 
 a {
   color: #0645ad;
+  text-decoration: none;
 }
 
 a:visited {
@@ -94,10 +95,11 @@ figure > img {
   margin: .5em 0;
   font-size: 1rem;
   max-width: 100%;
+  box-sizing: border-box;
 }
 
 img.frame {
-  border: 1px solid;
+  border: 1.5px solid;
 }
 
 /* Tables */
@@ -117,7 +119,7 @@ th {
   color: #222;
 }
 
-th > a, th > a:visited {
+th a, th a:visited {
   color: #222;
 }
 
@@ -146,10 +148,6 @@ td > em {
   border-radius: .2em;
   border: 1px solid rgba(0,0,0,.2);
   background: #eef;
-}
-
-td > em > a {
-  text-decoration: none;
 }
 
 /* Art Deco horizontal rules */

@@ -160,6 +160,7 @@ and Automated Reasoning. My interest in mathematics increased, and I followed
 courses about Axiomatic Set Theory, Model Theory, and Graph Theory.
 
 <br>
+
 <section>
 <figure>
 <img style="height: 3em" src="fig/Radboud.svg">
@@ -178,6 +179,7 @@ Full Text           | [`doi: 10.5281/zenodo.6340500`](https://doi.org/10.5281/ze
 </section>
 
 <br>
+
 <section>
 <figure>
 <img style="height: 2em" src="fig/TU_Delft.svg" height="30">
@@ -213,4 +215,4 @@ Company    | *Bergwerf Labs*
 -----------|--------------------------------------------------------------------
 Address    | Heemraadstraat 6, 6525 TH, Nijmegen
 KVK-number | `73224480`
-BTW-id     | `NL002378274B15`
+VAT-number | `NL002378274B15`
