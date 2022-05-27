@@ -79,6 +79,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 a:visited {
   color: #0b0080;
 }
