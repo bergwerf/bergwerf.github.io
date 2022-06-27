@@ -5,19 +5,20 @@
 Herman Bergwerf
 ===============
 **Welcome!** This webpage contains information about my expertise and
-professional activities. The main driving factor for me has always been solving
-difficult problems, and making the solutions look as beautiful as possible.
-I enjoy working with other skilled people, learning from them, and contributing
-my own knowledge and insights. I have a strong theoretical background in
-biophysics, mathematics, and computer science, and over the years I have gained
-extensive experience with software development and programming.
+professional activities. I am specialized in solving difficult logical problems
+and implementing the solutions in software systems. Apart from this I also enjoy
+building visual experiences using computers. I like brainstorming together with
+a team, sharing my experience and insights, and help finding the path towards a
+good product. My academic background is in physics, nanobiology, mathematics,
+and theoretical computer science. You can find contact details at the bottom of
+the page.
 
 
 --------------------------------------------------------------------------------
 
 
-Technical expertise
--------------------
+Technical skills
+----------------
 I have affinity with challenges across the software stack, both high-level and
 low-level. I like designing things, thinking about the interactions, and making
 sure everything is implemented in a modular and efficient way.
