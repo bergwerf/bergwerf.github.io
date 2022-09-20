@@ -91,12 +91,12 @@ a:visited {
 
 figure {
   margin: 0;
-  font-size: 5em;
+  font-size: 0;
   text-align: center;
 }
 
 figure > img {
-  margin: .5em 0;
+  margin: .5rem .7rem;
   font-size: 1rem;
   max-width: 100%;
 }
