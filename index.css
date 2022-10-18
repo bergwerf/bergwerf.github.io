@@ -110,19 +110,21 @@ img.frame {
 ul, ol {
   text-align: left;
   display: inline-block;
-  padding: 0;
 }
 
 li {
+  position: relative;
   list-style: none;
   line-height: 2em;
 }
 
 li::before {
   content: '➤';
-  margin: .5em;
   font-size: 1.2em;
-  vertical-align: middle;
+  position: absolute;
+  left: -2em;
+  top: .1em;
+
   color: #ffd700;
   text-shadow: 1px 0 1px rgba(0,0,0,.9);
 }
