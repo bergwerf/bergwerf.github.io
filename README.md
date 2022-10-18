@@ -5,13 +5,13 @@
 Herman Bergwerf
 ===============
 **Welcome!** This webpage contains information about my expertise and
-professional activities. I am specialized in solving difficult logical problems
-and implementing the solutions in software systems. Apart from this I also enjoy
-building visual experiences using computers. I like brainstorming together with
-a team, sharing my experience and insights, and help finding the path towards a
-good product. My academic background is in physics, nanobiology, mathematics,
-and theoretical computer science. You can find contact details at the bottom of
-the page.
+professional activity. I am specialized in solving difficult logical problems
+and implementing the solutions in software. Visual communication plays a key
+role in many of my projects, and I enjoy designing beautiful and innovative
+interfaces. I like brainstorming together with a team to find the path towards a
+good product, and to make technical descisions that are future-proof. I have an
+academic background is in physics, mathematics, and theoretical computer
+science.
 
 
 --------------------------------------------------------------------------------
@@ -19,7 +19,7 @@ the page.
 
 Technical skills
 ----------------
-I have affinity with challenges across the software stack, both high-level and
+I have affinity with challenges across the software stack; both high-level and
 low-level. I like designing things, thinking about the interactions, and making
 sure everything is implemented in a modular and efficient way.
 
@@ -32,11 +32,12 @@ sure everything is implemented in a modular and efficient way.
 <img style="width: 15em" class="frame" src="fig/MolView_responsive_zoomed.png">
 </figure>
 
-When developing user interfaces I strive for perfection. I make sure things look
-good on every screen, taking into account different sizes and resolutions. I
-highly value simplicity, so I try to make things self explanatory using visual
-metaphors users are familiar with. When necessary I use Inkscape to design
-custom vector icons that blend in well with the rest of the design.
+<center>
+- Familiar visual metaphors
+- Responsive layouts for every screen
+- Transparent and predictable behavior
+- Independent widget design
+</center>
 
 <br>
 
@@ -47,11 +48,12 @@ custom vector icons that blend in well with the rest of the design.
 <img style="width: 15em" src="fig/MolKit.png">
 </figure>
 
-Many of my projects have included interactive graphics, from a clickable world
-map to an interactive 2D and 3D molecule editor. Developing graphics with
-complex user interactions is one of my main strengths. In some cases I design a
-custom event handling system to ensure predictable behavior, and to ease the
-implemenation of new domain-specific features.
+<center>
+- Logic for complex user interaction
+- Modular event handling architecture
+- Reusable and extensible utilities
+- Domain-specific abstractions
+</center>
 
 <br>
 
@@ -61,11 +63,12 @@ implemenation of new domain-specific features.
 <img style="width: 30em" src="fig/Bromium.png">
 </figure>
 
-Application performance should never stand in the way of the user, so when
-needed I look for advanced ways to improve rendering efficiency. I have worked
-with the OpenGL API, developed GLSL shaders, and implemented general-purpose GPU
-computation. A good understanding of these technologies is very useful when
-working with 3D graphics.
+<center>
+- Fast 3D interaction and animation
+- Low-level knowledge about OpenGL
+- Acceleration using custom GLSL shaders
+- General Purpose GPU computation and parallelization
+</center>
 
 <br>
 
@@ -76,11 +79,11 @@ working with 3D graphics.
 <img style="width: 13em" class="frame" src="fig/nerve_segmentation_b.png">
 </figure>
 
-I have experience developing deep learning networks, and using existing machine
-learning solutions in Python. Jupyter Notebooks are an essential part of my
-Python workflow. The machine learning world is very fast-paced, and novel
-applications are published each day. Many existing solutions are just waiting
-for new application contexts.
+<center>
+- Process large data archives
+- Research and apply existing solutions
+- Efficient workflow using Jupyter Notebooks
+</center>
 
 <br>
 

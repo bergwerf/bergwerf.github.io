@@ -72,7 +72,7 @@ h3 {
   text-align: center;
 }
 
-/* Wikipedia hyperlink style */
+/* Wikipedia-like hyperlink style */
 
 a {
   color: #0645ad;
@@ -103,6 +103,28 @@ figure > img {
 
 img.frame {
   box-shadow: 0 0 .5px 1px #000;
+}
+
+/* Lists */
+
+ul, ol {
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  line-height: 2em;
+}
+
+li::before {
+  content: '➤';
+  margin: .5em;
+  font-size: 1.2em;
+  vertical-align: middle;
+  color: #ffd700;
+  text-shadow: 1px 0 1px rgba(0,0,0,.9);
 }
 
 /* Tables */
@@ -211,6 +233,11 @@ section table {
 
 section th:first-child {
   width: 25%;
+}
+
+figure + center {
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
 #background_effect {
