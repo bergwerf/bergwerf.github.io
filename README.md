@@ -50,7 +50,7 @@ sure everything is implemented in a modular and efficient way.
 
 <center>
 - Logic for complex user interaction
-- Modular event handling architecture
+- Modular architecture for event handling
 - Reusable and extensible utilities
 - Domain-specific abstractions
 </center>
