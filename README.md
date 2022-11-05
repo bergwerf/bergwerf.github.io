@@ -102,7 +102,7 @@ Below are some formalization projects I did in my spare time.
 Theory                               | Repository
 -------------------------------------|------------------------------------------
 Kleene Algebras and shortest paths   | [`@bergwerf/star_semiring`](https://github.com/bergwerf/star_semiring)
-Functional permutation factorization | [`@bergwerf/permutation_computing`](https://github.com/bergwerf/permutation_computing)
+Functional permutation factorization | [`@bergwerf/permutation_factors`](https://github.com/bergwerf/permutation_factors)
 Arithmetic decidability via automata | [`@bergwerf/linear_integer_arithmetic`](https://github.com/bergwerf/linear_integer_arithmetic)
 The Cantor-Bendixon theorem          | [`@bergwerf/settheory`](https://github.com/bergwerf/settheory)
 Brouwer's Continuity Principle       | [`@bergwerf/intuitionism`](https://github.com/bergwerf/intuitionism)
