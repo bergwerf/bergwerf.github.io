@@ -10,7 +10,7 @@ and implementing the solutions in software. Visual communication plays a key
 role in many of my projects, and I enjoy designing beautiful and innovative
 interfaces. I like brainstorming together with a team to find the path towards a
 good product, and to make technical descisions that are future-proof. I have an
-academic background is in physics, mathematics, and theoretical computer
+academic background in biophysics, pure mathematics, and theoretical computer
 science.
 
 
