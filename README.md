@@ -176,7 +176,7 @@ courses about Axiomatic Set Theory, Model Theory, and Graph Theory.
 Research Internship | |
 --------------------|-----------------------------------------------------------
 Title               | Circular lists in Iris ∗ deduction rules of ▷
-Supervisor          | dr. Robbert Krebbers
+Supervisor          | Dr. Robbert Krebbers
 Group               | [Software Science](https://sws.cs.ru.nl/)
 Full Text           | [`doi: 10.5281/zenodo.6340500`](https://doi.org/10.5281/zenodo.6340500)
 
@@ -194,7 +194,7 @@ Full Text           | [`doi: 10.5281/zenodo.6340500`](https://doi.org/10.5281/ze
 Thesis              | |
 --------------------|-----------------------------------------------------------
 Title               | Nerve fiber tracing in bright-field images of human skin using deep learning
-Supervisor          | dr. Erik Meijering
+Supervisor          | Dr. Erik Meijering
 Group               | [Biomedical Imaging Group Rotterdam](https://bigr.nl/)
 Full Text           | [TU Delft Repository](http://resolver.tudelft.nl/uuid:fc3ba9d0-8461-4a10-a66d-23b78dd161c2)
 IEEE Article        | [`doi: 10.1109/ISBI.2019.8759504`](https://ieeexplore.ieee.org/document/8759504)
