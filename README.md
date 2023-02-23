@@ -99,8 +99,9 @@ developed various formal theories. Developing formal proofs is very challenging,
 and requires careful thinking about even the smallest logical inferences.
 Below are some formalization projects I did in my spare time.
 
-Theory                               | Repository
+Subject                              | Repository
 -------------------------------------|------------------------------------------
+The Erdős-Lemke conjecture           | [`@bergwerf/pebbling`](https://github.com/bergwerf/pebbling)
 Kleene Algebras and shortest paths   | [`@bergwerf/star_semiring`](https://github.com/bergwerf/star_semiring)
 Functional permutation factorization | [`@bergwerf/permutation_factors`](https://github.com/bergwerf/permutation_factors)
 Arithmetic decidability via automata | [`@bergwerf/linear_integer_arithmetic`](https://github.com/bergwerf/linear_integer_arithmetic)
