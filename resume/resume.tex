@@ -1,0 +1,69 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[mono=false]{libertine}
+\usepackage[margin=1in]{geometry}
+\usepackage[shortlabels]{enumitem}
+\usepackage[colorlinks=false]{hyperref}
+\usepackage{xcolor,booktabs}
+
+\date{}
+\title{Curriculum Vitae}
+\author{Herman Bergwerf\\%
+{\small Contact: \url{post@hbergwerf.nl}}\\%
+{\small Code: \url{github.com/bergwerf}}}
+\pagenumbering{gobble}
+
+% Color of links.
+\hypersetup{colorlinks,
+  linkcolor=[HTML]{000000},
+  citecolor=[HTML]{000000},
+  urlcolor=[HTML]{000000}}
+
+\begin{document}
+\maketitle
+
+\section*{Education}
+
+\begin{figure}[h]
+\centering
+\begin{tabular}{rll}
+\toprule
+& {\bf Degree} & {\bf Institution}\\
+\midrule
+BSc & \emph{Nanobiology} & Technical University Delft\\
+MSc & \emph{Mathematical Foundations of Computer Science} & Radboud University Nijmegen\\
+\bottomrule
+\end{tabular}
+\end{figure}
+
+\section*{Publications}
+
+\begin{itemize}[--,labelsep=3mm,leftmargin=*]
+\item \emph{An Exploration of Graph Pebbling} (\emph{work in progress})\\
+Together with Dr. Wieb Bosma.
+\item \emph{Circular lists in Iris $\ast$ deduction rules of~\,$\triangleright$} (2022)\\
+Together with Dr. Robbert Krebbers. \textsc{\href{https://doi.org/10.5281/zenodo.6340500}{doi: 10.5281/zenodo.6340500}}
+\item \emph{Nerve fiber tracing in bright-field images of human skin using deep learning} (2019)\\
+Together with Dr. Erik Meijering. \textsc{\href{https://ieeexplore.ieee.org/document/8759504}{doi: 10.1109/isbi.2019.8759504}}
+\end{itemize}
+
+\section*{Work Experience}
+
+\begin{figure}[h]
+\centering
+\begin{tabular}{llll}
+\toprule
+{\bfseries Year} & {\bfseries Client \& Project} & {\bfseries Technologies}\\
+\midrule
+2022 & Omoda -- ML/AI for Image Processing & \emph{Python, MediaPipe, Tensorflow}\\
+2017-21 & CreativeQuantum -- Chemical Diagrams & \emph{Dart, HTML Canvas}\\
+2017 & Learnbeat -- Molecule Sketching for Education & \emph{JavaScript, NPM, HTML Canvas}\\
+2016 & Profects -- Custom Mailing Scheduler & \emph{Golang, PostgreSQL, Docker}\\
+\bottomrule
+\end{tabular}
+\end{figure}
+
+%\section*{Technical Skills}
+
+\end{document}
