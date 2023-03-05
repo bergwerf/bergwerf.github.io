@@ -19,11 +19,6 @@ science.
 
 Technical skills
 ----------------
-I have affinity with challenges across the software stack; both high-level and
-low-level. I like designing things, thinking about the interactions, and making
-sure everything is implemented in a modular and efficient way.
-
-<br>
 
 ### UI/UX Design
 
@@ -31,45 +26,48 @@ sure everything is implemented in a modular and efficient way.
 <img style="width: 15em" class="frame" src="fig/Bromium_UI.png">
 <img style="width: 15em" class="frame" src="fig/MolView_responsive_zoomed.png">
 </figure>
-
+<!--
 <center>
 - Familiar visual metaphors
 - Responsive layouts for every screen
 - Transparent and predictable behavior
 - Independent widget design
 </center>
-
+-->
+<br>
 <br>
 
-### Interactive Graphics
+### Custom Web Components
 
 <figure>
 <img style="width: 15em" class="frame" src="fig/MSketch.png">
 <img style="width: 15em" src="fig/MolKit.png">
 </figure>
-
+<!--
 <center>
 - Logic for complex user interaction
 - Modular architecture for event handling
 - Reusable and extensible utilities
 - Domain-specific abstractions
 </center>
-
+-->
+<br>
 <br>
 
-### Accelerated Graphics
+### 3D Graphics
 
 <figure>
 <img style="width: 30em" src="fig/Bromium.png">
 </figure>
-
+<!--
 <center>
 - Fast 3D interaction and animation
 - Low-level knowledge about OpenGL
 - Acceleration using custom GLSL shaders
 - General Purpose GPU computation and parallelization
 </center>
-
+-->
+<br>
 <br>
 
 ### Machine Learning
@@ -78,13 +76,14 @@ sure everything is implemented in a modular and efficient way.
 <img style="width: 13em" class="frame" src="fig/nerve_segmentation_a.png">
 <img style="width: 13em" class="frame" src="fig/nerve_segmentation_b.png">
 </figure>
-
+<!--
 <center>
 - Process large data archives
 - Research and apply existing solutions
 - Efficient workflow using Jupyter Notebooks
 </center>
-
+-->
+<br>
 <br>
 
 ### Formal Verification
@@ -154,6 +153,7 @@ Goal         | Enable free online molecule editing and viewing using open chemin
 
 Academic background
 -------------------
+<!--
 In 2015 I started the *Nanobiology* Bachelor program at TU Delft. I was excited
 to learn about the molecular machinery and laws of physics that make life
 possible. While this fascination remains with me, I decided to move away from
@@ -163,7 +163,7 @@ I moved to Nijmegen where they offer a strongly theoretical computer science
 track, including courses on Category Theory, Type Theory, Computability Theory,
 and Automated Reasoning. My interest in mathematics increased, and I followed
 courses about Axiomatic Set Theory, Model Theory, and Graph Theory.
-
+-->
 <br>
 
 <section>
@@ -213,11 +213,10 @@ Description         | During one full semeter we were introduced to Interaction 
 
 Contact details
 ---------------
-I am always interested in new challenges and opportunities. For questions and
-business inquiries please send an email to `post@hbergwerf.nl`.
 
 Company    | *Bergwerf Labs*
 -----------|--------------------------------------------------------------------
 Address    | Heemraadstraat 6, 6525 TH, Nijmegen
+Email      | `post@hbergwerf.nl`
 KVK-number | `73224480`
 VAT-number | `NL002378274B15`
