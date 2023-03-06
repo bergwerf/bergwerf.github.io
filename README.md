@@ -26,7 +26,7 @@ Technical skills
 
 <figure>
 <img style="width: 15em" class="frame" src="fig/Bromium_UI.png">
-<img style="width: 15em" class="frame" src="fig/MolView_responsive_zoomed.png">
+<img style="width: 15em" class="frame" src="fig/MSketch.png">
 </figure>
 <!--
 <center>
@@ -34,19 +34,6 @@ Technical skills
 - Responsive layouts for every screen
 - Transparent and predictable behavior
 - Independent widget design
-</center>
--->
-<br>
-<br>
-
-### Custom Web Components
-
-<figure>
-<img style="width: 15em" class="frame" src="fig/MSketch.png">
-<img style="width: 15em" src="fig/MolKit.png">
-</figure>
-<!--
-<center>
 - Logic for complex user interaction
 - Modular architecture for event handling
 - Reusable and extensible utilities
