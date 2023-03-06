@@ -85,7 +85,7 @@ One of my academic specializations is *formal verification* using interactive
 theorem provers. I primarily use the *Coq Proof Assistant*, using which I have
 developed various formal theories. Developing formal proofs is very challenging,
 and requires careful thinking about even the smallest logical inferences.
-Below are some formalization projects I did in my spare time.
+Below are some formalization projects I did.
 
 Main topic                            | Repository
 --------------------------------------|------------------------------------------
