@@ -20,6 +20,8 @@ science.
 Technical skills
 ----------------
 
+<br>
+
 ### UI/UX Design
 
 <figure>
@@ -218,5 +220,5 @@ Company    | *Bergwerf Labs*
 -----------|--------------------------------------------------------------------
 Address    | Heemraadstraat 6, 6525 TH, Nijmegen
 Email      | `post@hbergwerf.nl`
-KVK-number | `73224480`
-VAT-number | `NL002378274B15`
+KVK        | `73224480`
+VAT        | `NL002378274B15`

@@ -43,10 +43,12 @@
 }
 
 body {
-  text-align: justify;
   font-family: "Linux Libertine O", serif;
   font-weight: normal;
   font-size: 1.2em;
+
+  text-align: justify;
+  hyphens: auto;
 }
 
 h1, h2, h3 {
@@ -155,7 +157,7 @@ th > em {
 }
 
 td {
-  text-align: justify;
+  text-align: left;
   vertical-align: top;
   padding: .2em .5em;
   line-height: 1.5em;
