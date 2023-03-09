@@ -163,6 +163,12 @@ courses about Axiomatic Set Theory, Model Theory, and Graph Theory.
 
 ### **MSc.** Mathematical Foundations of Computer Science
 
+Thesis              | |
+--------------------|-----------------------------------------------------------
+Title               | An Exploration of Graph Pebbling
+Supervisor          | Dr. Wieb Bosma
+Group               | [Pure Mathematics](https://www.ru.nl/math/research/research-groups-0/pure-mathematics/)
+Full Text           | [`doi: 10.48550/arXiv.2303.04590`](https://arxiv.org/abs/2303.04590)
 
 Research Internship | |
 --------------------|-----------------------------------------------------------
