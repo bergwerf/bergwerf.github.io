@@ -20,6 +20,8 @@ science.
 <br>
 <center>
 <a class=btn href="https://www.linkedin.com/in/hbergwerf/">LinkedIn</a>
+<a class=btn href="https://github.com/bergwerf/">GitHub</a>
+<a class=btn href="resume/resume.pdf">Resume</a>
 </center>
 
 --------------------------------------------------------------------------------

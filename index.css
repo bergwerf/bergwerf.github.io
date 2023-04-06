@@ -1,5 +1,9 @@
 /* Fonts */
 
+:root {
+  font-size: 1.2em;
+}
+
 @font-face {
   src: url("fonts/LinLibertine_R.otf") format("opentype");
   font-family: "Linux Libertine O";
@@ -93,16 +97,35 @@ a:visited {
 /* Floating button */
 
 a.btn {
-  padding: .5em .6em;
+  display: inline-block;
+  margin: 1em;
+  padding: .7em .9em;
+  position: relative;
   font-weight: bold;
   text-decoration: none !important;
   color: #000;
+}
+
+a.btn::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+
   border: 2px solid #000;
-  background: rgba(255, 255, 255, .5);
+  background: #ffd700;
+  transform: skewX(5deg);
 }
 
 a.btn:hover {
   color: #fff;
+}
+
+a.btn:hover::before {
   background: #000;
 }
 
@@ -149,6 +172,7 @@ li::before {
 /* Tables */
 
 table {
+  font-size: .9em;
   margin: 1em 0;
   padding: .1em;
   border: 1px solid rgba(0,0,0,.25);
