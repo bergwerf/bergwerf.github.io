@@ -124,8 +124,8 @@ Featured projects
 2022         | *Machine Learning for Image Processing*
 -------------|------------------------------------------------------------------
 Client       | [Omoda](https://www.omoda.nl/)
-Technologies | *Python* *MediaPipe*
-Goal         | Build machine learning based tools for automatic image classification to help automate the photography pipeline.
+Technologies | *Python* *MediaPipe* *OpenCV*
+Goal         | Automate photo editing in the photography studio using machine learning tools for detailled pose detection.
 
 2017-2021    | *High-quality Chemical Diagrams*
 -------------|------------------------------------------------------------------
@@ -143,7 +143,7 @@ Goal         | Integrate MolView's 2D molecule sketcher in a learning platform u
 -------------|------------------------------------------------------------------
 Client       | [Profects](https://profects.com/)
 Technologies | *Golang* *PostgreSQL* *Docker*
-Goal         | Develop a stable and efficient program to send thousands of daily emails parameterized by an SQL database.
+Goal         | Develop a stable and efficient program to send thousands of daily emails with client-specific pricelists.
 
 2012-2015    | *[MolView.org](https://molview.org/)*
 -------------|------------------------------------------------------------------
