@@ -1,3 +1,7 @@
+---
+title: Herman Bergwerf
+---
+
 <figure>
 <img style="height: 12em" class="frame" src="fig/Herman.jpg">
 </figure>
@@ -13,6 +17,10 @@ good product, and to make technical descisions that are future-proof. I have an
 academic background in biophysics, pure mathematics, and theoretical computer
 science.
 
+<br>
+<center>
+<a class=btn href="https://www.linkedin.com/in/hbergwerf/">LinkedIn</a>
+</center>
 
 --------------------------------------------------------------------------------
 
@@ -22,24 +30,31 @@ Technical skills
 
 <br>
 
+### Programming
+
+<figure>
+<img style="width: 30em" src="fig/languages.svg">
+</figure>
+
+I started programming over 10 years ago, and since then I learned to work with a
+range of different languages, libraries, frameworks, tools, and stacks. Some of
+my favorite programming languages are OCaml, Golang, TypeScript, Dart, and C.
+
+<br>
+<br>
+
 ### UI/UX Design
 
 <figure>
 <img style="width: 15em" class="frame" src="fig/Bromium_UI.png">
 <img style="width: 15em" class="frame" src="fig/MSketch.png">
 </figure>
-<!--
-<center>
-- Familiar visual metaphors
-- Responsive layouts for every screen
-- Transparent and predictable behavior
-- Independent widget design
-- Logic for complex user interaction
-- Modular architecture for event handling
-- Reusable and extensible utilities
-- Domain-specific abstractions
-</center>
--->
+
+I am a minimalist, and I like designing distinctive and functional interfaces
+that are responsive, predictable, and easy to learn and understand. For one
+project I developed a comprehensive WYSIWYG editor with a modular event handling
+system to make sure that the code is easy to maintain and extend.
+
 <br>
 <br>
 
@@ -48,14 +63,12 @@ Technical skills
 <figure>
 <img style="width: 30em" src="fig/Bromium.png">
 </figure>
-<!--
-<center>
-- Fast 3D interaction and animation
-- Low-level knowledge about OpenGL
-- Acceleration using custom GLSL shaders
-- General Purpose GPU computation and parallelization
-</center>
--->
+
+I have worked on a number of projects that involved 3D rendering. From this I
+learned the logic behind the OpenGL/WebGL API, how to accelerate rendering and
+computation problems via custom shaders, and how to make 3D objects interactive
+using libraries like `THREE.js`. Working on 3D graphics is always a treat.
+
 <br>
 <br>
 
@@ -65,13 +78,13 @@ Technical skills
 <img style="width: 13em" class="frame" src="fig/nerve_segmentation_a.png">
 <img style="width: 13em" class="frame" src="fig/nerve_segmentation_b.png">
 </figure>
-<!--
-<center>
-- Process large data archives
-- Research and apply existing solutions
-- Efficient workflow using Jupyter Notebooks
-</center>
--->
+
+In my bachelor thesis I got hands-on experience with machine learning by
+designing and training a *Deep Convolutional Neural Network* to perform image
+segmentation of high resolution microscope scans. I also have experience testing
+and applying existing machine learning models, which is often a very powerful
+approach to build new solutions.
+
 <br>
 <br>
 
@@ -82,10 +95,10 @@ Technical skills
 </figure>
 
 One of my academic specializations is *formal verification* using interactive
-theorem provers. I primarily use the *Coq Proof Assistant*, using which I have
-developed various formal theories. Developing formal proofs is very challenging,
-and requires careful thinking about even the smallest logical inferences.
-Below are some formalization projects I did.
+theorem provers. I developed various formalizations using the *Coq Proof
+Assistant*. Developing formal proofs is very challenging, and requires careful
+thinking about even the smallest logical inferences. Below is an overview of my
+formalization projects.
 
 Main topic                             | Repository
 ---------------------------------------|------------------------------------------

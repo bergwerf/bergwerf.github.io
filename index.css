@@ -90,6 +90,22 @@ a:visited {
   color: #0b0080;
 }
 
+/* Floating button */
+
+a.btn {
+  padding: .5em .6em;
+  font-weight: bold;
+  text-decoration: none !important;
+  color: #000;
+  border: 2px solid #000;
+  background: rgba(255, 255, 255, .5);
+}
+
+a.btn:hover {
+  color: #fff;
+  background: #000;
+}
+
 /* Figures */
 
 figure {
