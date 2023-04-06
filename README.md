@@ -125,7 +125,7 @@ Featured projects
 -------------|------------------------------------------------------------------
 Client       | [Omoda](https://www.omoda.nl/)
 Technologies | *Python* *MediaPipe* *OpenCV*
-Goal         | Automate photo editing in the photography studio using machine learning tools for detailled pose detection.
+Goal         | Automate photo editing in the photography studio using machine learning tools for detailed pose detection.
 
 2017-2021    | *High-quality Chemical Diagrams*
 -------------|------------------------------------------------------------------
