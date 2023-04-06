@@ -98,8 +98,8 @@ a:visited {
 
 a.btn {
   display: inline-block;
-  margin: 1em;
-  padding: .7em .9em;
+  margin: .5em;
+  padding: .5em .9em;
   position: relative;
   font-weight: bold;
   text-decoration: none !important;
