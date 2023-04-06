@@ -67,9 +67,10 @@ system to make sure that the code is easy to maintain and extend.
 </figure>
 
 I have worked on a number of projects that involved 3D rendering. From this I
-learned the logic behind the OpenGL/WebGL API, how to accelerate rendering and
-computation problems via custom shaders, and how to make 3D objects interactive
-using libraries like `THREE.js`. Working on 3D graphics is always a treat.
+learned the logic behind the OpenGL and WebGL API, how to accelerate rendering
+and computation problems via custom shaders, and how to make 3D objects
+interactive using libraries like `THREE.js`. Working on 3D graphics is always a
+treat.
 
 <br>
 <br>
