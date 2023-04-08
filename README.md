@@ -27,8 +27,8 @@ science.
 --------------------------------------------------------------------------------
 
 
-Technical skills
-----------------
+Skills
+------
 
 <br>
 
@@ -116,7 +116,7 @@ Brouwer's continuity principle         | [`@bergwerf/intuitionism`](https://gith
 
 --------------------------------------------------------------------------------
 
-
+<!--
 Featured projects
 -----------------
 
@@ -155,10 +155,10 @@ Goal         | Enable free online molecule editing and viewing using open chemin
 
 
 --------------------------------------------------------------------------------
+-->
 
-
-Academic background
--------------------
+Education
+---------
 <!--
 In 2015 I started the *Nanobiology* Bachelor program at TU Delft. I was excited
 to learn about the molecular machinery and laws of physics that make life
@@ -174,7 +174,7 @@ courses about Axiomatic Set Theory, Model Theory, and Graph Theory.
 
 <section>
 <figure>
-<img style="height: 3em" src="fig/Radboud.svg">
+<img style="height: 5em" src="fig/Radboud.svg">
 </figure>
 
 ### **MSc.** Mathematical Foundations of Computer Science
@@ -186,7 +186,7 @@ Supervisor          | Dr. Wieb Bosma
 Group               | [Pure Mathematics](https://www.ru.nl/math/research/research-groups-0/pure-mathematics/)
 Full Text           | [`doi: 10.48550/arXiv.2303.04590`](https://arxiv.org/abs/2303.04590)
 
-Research Internship | |
+Internship          | |
 --------------------|-----------------------------------------------------------
 Title               | Circular lists in Iris ∗ deduction rules of ▷
 Supervisor          | Dr. Robbert Krebbers
@@ -196,10 +196,11 @@ Full Text           | [`doi: 10.5281/zenodo.6340500`](https://doi.org/10.5281/ze
 </section>
 
 <br>
+<br>
 
 <section>
 <figure>
-<img style="height: 2em" src="fig/TU_Delft.svg" height="30">
+<img style="height: 3em" src="fig/TU_Delft.svg" height="30">
 </figure>
 
 ### **BSc.** Nanobiology
@@ -223,8 +224,8 @@ Description         | During one full semeter we were introduced to Interaction 
 --------------------------------------------------------------------------------
 
 
-Contact details
----------------
+Contact
+-------
 
 Company    | *Bergwerf Labs*
 -----------|--------------------------------------------------------------------
