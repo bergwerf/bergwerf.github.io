@@ -3,7 +3,7 @@ title: Herman Bergwerf
 ---
 
 <figure>
-<img style="height: 12em" class="frame" src="fig/Herman.jpg">
+<img style="width: 7em" class="frame" src="fig/Herman.jpg">
 </figure>
 
 Herman Bergwerf
@@ -200,7 +200,7 @@ Full Text           | [`doi: 10.5281/zenodo.6340500`](https://doi.org/10.5281/ze
 
 <section>
 <figure>
-<img style="height: 3em" src="fig/TU_Delft.svg" height="30">
+<img style="height: 3em" src="fig/TU_Delft.svg">
 </figure>
 
 ### **BSc.** Nanobiology
