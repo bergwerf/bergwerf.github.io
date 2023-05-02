@@ -185,6 +185,7 @@ Title               | An Exploration of Graph Pebbling
 Supervisor          | Dr. Wieb Bosma
 Group               | [Pure Mathematics](https://www.ru.nl/math/research/research-groups-0/pure-mathematics/)
 Full Text           | [`doi: 10.48550/arXiv.2303.04590`](https://arxiv.org/abs/2303.04590)
+Resources           | [Presentation on YouTube](https://www.youtube.com/watch?v=yPzyQ4M1f3c), [Formalization on GitHub](https://github.com/bergwerf/pebbling)
 
 Internship          | |
 --------------------|-----------------------------------------------------------
@@ -192,6 +193,7 @@ Title               | Circular lists in Iris ∗ deduction rules of ▷
 Supervisor          | Dr. Robbert Krebbers
 Group               | [Software Science](https://sws.cs.ru.nl/)
 Full Text           | [`doi: 10.5281/zenodo.6340500`](https://doi.org/10.5281/zenodo.6340500)
+Resources           | [Formalization on GitHub](https://github.com/bergwerf/later_modality)
 
 </section>
 
