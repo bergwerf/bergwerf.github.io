@@ -231,7 +231,6 @@ Contact
 
 Company    | *Bergwerf Labs*
 -----------|--------------------------------------------------------------------
-Address    | Heemraadstraat 6, 6525 TH, Nijmegen
 Email      | `post@hbergwerf.nl`
 KVK        | `73224480`
 VAT        | `NL002378274B15`
