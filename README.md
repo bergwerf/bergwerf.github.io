@@ -8,14 +8,13 @@ title: Herman Bergwerf
 
 Herman Bergwerf
 ===============
-**Welcome!** This webpage contains information about my expertise and
-professional activity. I am specialized in solving difficult logical problems
-and implementing the solutions in software. Visual communication plays a key
-role in many of my projects, and I enjoy designing beautiful and innovative
-interfaces. I like brainstorming together with a team to find the path towards a
-good product, and to make technical decisions that are future-proof. I have an
-academic background in biophysics, pure mathematics, and theoretical computer
-science.
+**Welcome!** My name is Herman, I live in Amsterdam and I develop software. I am
+specialized in solving difficult logical problems and translating the solutions
+to code. Visual communication plays a key role in many of my projects, and I
+enjoy designing beautiful and innovative interfaces. I like brainstorming
+together with a team to find the path towards a good product, and to make
+technical decisions that are future-proof. I have an academic background in
+biophysics, pure mathematics, and theoretical computer science.
 
 <br>
 <center>
@@ -38,7 +37,7 @@ Skills
 <img style="width: 30em" src="fig/languages.svg">
 </figure>
 
-I started programming over 10 years ago, and since then I learned to work with a
+I started programming over a decade ago. Since then I learned to work with a
 range of different languages, libraries, frameworks, tools, and stacks. Some of
 my favorite programming languages are OCaml, Golang, TypeScript, Dart, and C.
 
@@ -53,9 +52,8 @@ my favorite programming languages are OCaml, Golang, TypeScript, Dart, and C.
 </figure>
 
 I am a minimalist, and I like designing distinctive and functional interfaces
-that are responsive, predictable, and easy to learn and understand. For one
-project I developed a comprehensive WYSIWYG editor with a modular event handling
-system to make sure that the code is easy to maintain and extend.
+that are responsive, predictable, and easy to learn and understand. I find it
+particularly interesting to build WYSIWYG editors using modular principles.
 
 <br>
 <br>
@@ -66,11 +64,10 @@ system to make sure that the code is easy to maintain and extend.
 <img style="width: 30em" src="fig/Bromium.png">
 </figure>
 
-I have worked on a number of projects that involved 3D rendering. From this I
-learned the logic behind the OpenGL and WebGL API, how to accelerate rendering
-and computation problems via custom shaders, and how to make 3D objects
-interactive using libraries like `THREE.js`. Working on 3D graphics is always a
-treat.
+It is always a treat when 3D rendering is part of a project. There is such a
+beautiful range of technologies to get things done, and a lot of mathematics is
+involved! I mainly have experience with low-level 3D; directly using OpenGL or
+WebGL, and using shaders.
 
 <br>
 <br>
@@ -99,7 +96,7 @@ approach to build new solutions.
 
 One of my academic specializations is *formal verification* using interactive
 theorem provers. I developed various formalizations using the *Coq Proof
-Assistant*. Developing formal proofs is very challenging, and requires careful
+Assistant*. Developing formal proofs is quite challenging, and requires careful
 thinking about even the smallest logical inferences. Below is an overview of my
 formalization projects.
 
