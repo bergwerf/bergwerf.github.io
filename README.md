@@ -3,7 +3,7 @@ title: Herman Bergwerf
 ---
 
 <figure>
-<img style="width: 7em" class="frame" src="fig/Herman.jpg">
+<img style="width: 15em" class="frame" src="fig/Herman.jpg">
 </figure>
 
 Herman Bergwerf
