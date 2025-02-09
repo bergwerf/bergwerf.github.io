@@ -8,13 +8,10 @@ title: Herman Bergwerf
 
 Herman Bergwerf
 ===============
-**Welcome!** My name is Herman, I live in Amsterdam and I develop software. I am
-specialized in solving difficult logical problems and translating the solutions
-to code. Visual communication plays a key role in many of my projects, and I
-enjoy designing beautiful and innovative interfaces. I like brainstorming
-together with a team to find the path towards a good product, and to make
-technical decisions that are future-proof. I have an academic background in
-biophysics, pure mathematics, and theoretical computer science.
+Hi, I'm Herman. I like to solve problems using elegant algorithms and package it
+in a beautifully designed user interface. I love when design and mathematics
+meet. I have an academic background in biophysics, pure mathematics, and
+theoretical computer science.
 
 <br>
 <center>
